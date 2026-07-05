@@ -3,11 +3,26 @@ package main
 import "fmt"
 
 func main() {
+	//1 exemple
 	var x int
-
 	x = 15
 
-	fmt.Printf("mon nombre est : %v", x)
+	//2 exemple
+	y := 17
+
+	//3 exemple
+	var (
+		age  int
+		name string
+		z    bool
+	)
+	age = 21
+	name = "Tahina"
+	z = true
+
+	fmt.Println("exemple 1 est : ", x)
+	fmt.Println("exemple 2 est : ", y)
+	fmt.Printf("Mon nom est %v, j'ai %v ans, j'ai plus de 18 ans : %v\n", name, age, z)
 
 }
 
